@@ -1,0 +1,30 @@
+header, nav, main, footer {
+        max-width: 75rem;
+        margin:auto;
+}
+
+/*----------- BODY --------------*/
+
+
+/*----------- NAVIGATION --------------*/
+
+
+
+/*----------- MAIN --------------*/
+main {
+        form#searchForm {
+                padding: 20px 0 20px 2%;
+                background-color: #161514;
+        }
+        .mainTable {
+                tr:nth-child(even) {
+                        background-color: #2b2b2b;
+                }
+                td,th {
+                        border: none;
+                }
+        }
+}
+ 
+/*----------- FOOTER --------------*/
+    

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rust Servers</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <p>Rust Server Browser</p>
+        </header>
+        <main>
+            <form id="searchForm">
+                <input type="text" id="search" name="search" placeholder="Search...">
+                <input type="text" id="min" name="min" placeholder="Min Players">
+                <input type="text" id="max" name="max" placeholder="Max Players">          
+                <input type="submit" value="Submit">
+            </form>
+            <table class="mainTable">
+                <thead>
+                    <th>Server Name</th>
+                    <th>Rank</th>
+                    <th>Players</th>
+                    <th>Last Wipe</th>
+                    <th>Country</th>
+                </thead>
+            </table>
+        </main>
+        <footer>
+            <p>This site was built using the <a href="https://www.battlemetrics.com/developers/documentation">BattleMetrics API</a> Copyright Sterling Holt 2022</p>
+        </footer>
+        <script src="scripts.js"></script>
+    </body>
+</html>
